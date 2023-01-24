@@ -24,8 +24,8 @@ jobs:
         uses: nogsantos/ssh-scp-deploy@v1.3.0
         with:
           host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          user: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          source: "./docs/.vuepress/dist"
-          target: "/var/www"
+          src: "./docs/.vuepress/dist"
+          remote: "/var/www"
