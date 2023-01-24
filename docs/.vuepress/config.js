@@ -3,7 +3,7 @@ import { defineUserConfig,defaultTheme } from 'vuepress'
 export default defineUserConfig({
     lang: 'zh-CN',
     title: 'Rearyard Team',
-    description: '咕咕咕咕咕咕',
+    description: '咕咕咕',
     theme: defaultTheme({
         navbar: [
             {
