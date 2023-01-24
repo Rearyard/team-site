@@ -8,6 +8,7 @@ on:
       - master
 jobs:
   build:
+    environment: CI_BUILD
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
